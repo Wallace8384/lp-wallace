@@ -1,0 +1,115 @@
+*{
+    margin: 0px;    
+    background-color: rgb(17, 83, 83);
+}
+
+#titulo{
+    padding-top: 75px;
+    margin: 50px;
+    display: flex;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#rosto{
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+#logo{
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+}
+#topo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: 3;
+}
+#informacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 25px;
+
+}
+#vídeo{
+    padding-top: 25px;
+    margin-top: 25px;
+}
+#texto{
+    margin-left: 25px;
+    color: bisque;
+    font-size: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#carrosel-titulo{
+    padding-top: 75px;
+    margin: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    margin: 30px;
+    width: 380px;
+    height: 280px;
+    border-radius: 5%;
+    
+
+}
+#cards{
+    margin: 10px;
+    margin-top: 70px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.card:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,5s;
+
+}
+
+#titulo-formulario{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: bisque;
+}
+#formulario{
+    margin-left: 40%;
+
+}
+input{
+    
+    width: 300px;
+    height: 30px;
+    background-color: aquamarine;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    margin-left: 12%;
+    width: 150px;
+    height: 30px;
+    background-color: aquamarine;
+    padding: auto;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+}
+button:hover{
+    cursor: pointer;
+     transform: translateY(-7px);
+    transition-duration: 0,5s;
+}
+
+

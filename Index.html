@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Wallace Pereira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Topo da página -->
+    <header>
+        <div id="topo">
+            <img src="./lp-wallace/imagens/logo.png" id="logo" alt="ERROR">
+            <h1 id="titulo"> WALLACE PEREIRA </h1>
+            <img src="./lp-wallace/imagens/FotoRosto.jpeg" id="rosto" alt="ERROR">
+         </div>
+    </header>
+
+    <!-- Meio da página -->
+    <div id="informacional">
+        <iframe width="450" height="225" src="https://www.youtube.com/embed/wbMT4fQT-Xc" id="video" title="Sua saúde é nossa vida | Klini Saúde" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p id="texto"> "Somos a melhor escolha que o carioca pode fazer para cuidar de si mesmo e da sua família<br>
+            Isso porque estamos em todos os lugares da cidade: temos a maior e mais completa rede Própria do Rio,<br>
+            contando com 10 hospitais, 10 Centros Médicos, 3 Centros de Fisioterapia e 2 Centros de Terapias Especiais,<br>
+            além de laboratórios de ponta, como COPI e o 3D Diagnósticos por Imagem.<br><br>
+            Nosso compromisso é oferecer um tratamento de alta qualidade, conduzido por profissionais altamente capacitados,<br>
+            que valorizam o atendimento individual e humanizado. E o melhor de tudo: com o melhor custo-benefício do mercado.<br>
+            Confie em nós para cuidar do que realmente importa: a sua saúde!" </p>
+
+    </div>
+
+    <!-- Meio da página parte 2 -->
+
+    <div id="carrosel">
+        <h1 id="carrosel-titulo"> TAMBÉM TRABALHAMOS COM OUTROS PLANOS </h1>
+        <div id="cards">
+            <img id="criativo1" src="./lp-wallace/imagens/CRIATIVO 01.png" class="card" alt="">
+            <img id="criativo2" src= "./lp-wallace/imagens/CRIATIVO 2 REVISADO.png" class="card" alt="">
+            <img id="planos" src="./lp-wallace/imagens/planos de.png" class="card" alt="">
+        </div>
+    </div>
+
+    <!-- FORMULÁRIO -->
+
+    <h1 id="titulo-formulario"> RECEBA UMA COTAÇÃO ONLINE </h1>
+    <form id="formulario"  action="https://formsubmit.co/wpereirario@gmail.com" method="POST">
+        <input type="text" placeholder="Nome: " name="Nome" required><br>
+        <input type="text" placeholder="Email: " name="Email" required><br>
+        <input type="text" placeholder="Cidade: " name="Cidade" required><br>
+        <input type="int" placeholder="Telefone: " name="Telefone" required><br>
+        <button type="submit">Cotação</button> 
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
